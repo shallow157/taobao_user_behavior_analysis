@@ -17,6 +17,7 @@
 
 ## 五、项目结构
 taobao-user-behavior-analysis/
+
 ├── data/ # 数据存放目录
 
 │ └── UserBehavior.csv # 原始数据集
