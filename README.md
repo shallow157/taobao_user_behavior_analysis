@@ -18,14 +18,23 @@
 ## 五、项目结构
 taobao-user-behavior-analysis/
 ├── data/ # 数据存放目录
+
 │ └── UserBehavior.csv # 原始数据集
+
 ├── sql/ # SQL 脚本目录
+
 │ ├── database_setup.sql # 数据库创建和表结构定义脚本
+
 │ ├── data_preprocessing.sql # 数据预处理脚本
+
 │ ├── data_analysis.sql # 数据分析脚本
+
 ├── docs/ # 文档目录
+
    ├── visualization_analysis.md # 可视化结果分析文档
+   
    ├── analysis_report.md # 淘宝用户行为数据分析报告
+
 └── README.md # 项目说明文档
 
 ## 六、数据分析
