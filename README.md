@@ -16,27 +16,19 @@
 本项目使用的数据集为阿里云天池公开数据集"User Behavior Data from Taobao for Recommendation"，包含约1亿条用户行为记录，时间范围为2017年11月25日至2017年12月3日。数据集主要字段包括用户ID、商品ID、商品类目ID、行为类型和时间戳。
 
 ## 五、项目结构
+```
 taobao-user-behavior-analysis/
-
-├── data/ # 数据存放目录
-
+├── data/ 
 │ └── UserBehavior.csv # 原始数据集
-
-├── sql/ # SQL 脚本目录
-
+├── sql/ 
 │ ├── database_setup.sql # 数据库创建和表结构定义脚本
-
 │ ├── data_preprocessing.sql # 数据预处理脚本
-
 │ ├── data_analysis.sql # 数据分析脚本
-
-├── docs/ # 文档目录
-
-   ├── visualization_analysis.md # 可视化结果分析文档
-   
-   ├── analysis_report.md # 淘宝用户行为数据分析报告
-
-└── README.md # 项目说明文档
+├── docs/ 
+│  ├── visualization_analysis.md # 可视化结果分析文档   
+│  ├── analysis_report.md # 淘宝用户行为数据分析报告
+└── README.md 
+```
 
 ## 六、数据分析
 1. 数据预处理
