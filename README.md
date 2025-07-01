@@ -23,10 +23,10 @@ taobao-user-behavior-analysis/
 ├── sql/ 
 │ ├── database_setup.sql # 数据库创建和表结构定义脚本
 │ ├── data_preprocessing.sql # 数据预处理脚本
-│ ├── data_analysis.sql # 数据分析脚本
+│ └── data_analysis.sql # 数据分析脚本
 ├── docs/ 
 │ ├── visualization_analysis.md # 可视化结果分析文档   
-│ ├── analysis_report.md # 淘宝用户行为数据分析报告
+│ └── analysis_report.md # 淘宝用户行为数据分析报告
 └── README.md 
 ```
 
